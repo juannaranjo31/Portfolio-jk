@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Permanent+Marker&family=Staatliches&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+-------------------------                    |
+|       MAIN            |
+-------------------------
+*/
+
+header{
+    width: 100%;
+}
+
+.main-section{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url(img/background-main.jpg);
+    background-position: top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    margin-left: 2rem;
+}
+
+.brand .fa-user-astronaut{
+    font-size: 3em;
+}
+
+.brand h2{
+    display: inline;
+    font-size: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-top: 1.4rem;
+}
+
+.main-menu ul{
+    list-style: none;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.main-menu li{
+    display: inline;
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-menu li:hover{
+    color: #00eaff;
+}
