@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Permanent+Marker&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 *{
     padding: 0;
@@ -52,6 +53,11 @@ header{
     font-family: 'Montserrat', sans-serif;
 }
 
+.brand:hover{
+    color: #3dff9e;
+    cursor: pointer;
+}
+
 .main-menu{
     display: flex;
     justify-content: flex-end;
@@ -72,5 +78,19 @@ header{
 }
 
 .main-menu li:hover{
-    color: #00eaff;
+    color: #3dff9e;
+}
+
+.welcome{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
 }
