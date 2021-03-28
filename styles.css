@@ -7,9 +7,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #000;
+}
+
 /*
 -------------------------                    |
-|       MAIN            |
+|   MAIN SECTION START  |
 -------------------------
 */
 
@@ -33,7 +37,8 @@ header{
 .navigation{
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .brand{
@@ -54,7 +59,7 @@ header{
 }
 
 .brand:hover{
-    color: #008ac0;
+    color: #ff39e5;
     cursor: pointer;
 }
 
@@ -78,7 +83,7 @@ header{
 }
 
 .main-menu li:hover{
-    color: #008ac0;
+    color: #ff39e5;
 }
 
 .main-menu a{
@@ -98,6 +103,7 @@ header{
 .welcome-section h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 3em;
+    color: #ffffff
 }
 
 .social-media .social-btn{
@@ -116,6 +122,7 @@ header{
     border: solid 1px #ffffff;
     border-radius: 50%;
     padding: 10px;
+    color: #ffffff;
     font-size: 1.5rem;
     transform: scale(1);
     transition: all 1s;
@@ -124,5 +131,75 @@ header{
 .social-media .social-btn:hover{
     transform: scale(1.3);
     transition: all 1s;
-    background-color: #008ac0;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/pVnfc9v3xjh5K/giphy.gif);
+    background-position: center top;
+    background-size: cover;
+    -webkit-background-clip: text;
+}
+
+/*
+-------------------------
+|   MAIN SECTION END    |
+-------------------------
+*/
+
+
+/*
+-------------------------
+|   ABOUT SECTION START    |
+-------------------------
+*/
+
+.about{
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+}
+
+.about-me-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-section h1{
+    font-size: 3.5em;
+    font-weight: 10000;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/pVnfc9v3xjh5K/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-clip: text;
+}
+
+.rgb-mark{
+    padding: 0.5rem;
+    width: 31rem;
+    height: 31rem;
+    background-image: url(https://media.giphy.com/media/pVnfc9v3xjh5K/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 4rem;
+}
+
+.personal-photo{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    background-image: url(img/PH1.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.about-text{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: lighter;
+    letter-spacing: 2px;
 }
