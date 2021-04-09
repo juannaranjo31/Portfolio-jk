@@ -348,3 +348,48 @@ header{
 |    SKILLS SECTION END   |
 ---------------------------
 */
+
+/*
+------------------------------------
+| CONTACT AND FOOTER SECTION START |
+------------------------------------
+*/
+
+footer{
+    position: absolute;
+    top: 345vh;
+    width: 100%;
+}
+
+.container-footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-around;
+}
+
+.container-footer .content{
+    text-align: center;
+}
+
+.container-footer .content h2{
+    text-decoration: underline 3px #c7ad1d;
+    margin-bottom: 5px;
+    color: transparent;
+    background-image: url(img/gold-texture.png);
+    background-position: center top;
+    background-size: cover;
+    cursor: pointer;
+    -webkit-background-clip: text;
+}
+
+.copyright{
+    display: flex;
+    width: 100%;
+    padding: 3rem;
+    justify-content: center;
+    color: #929090;
+    font-family: 'Montserrat', sans-serif;
+}
