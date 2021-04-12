@@ -10,6 +10,14 @@
     }
 }
 
+@media screen and (min-width: 280px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
 @media screen and (max-width:768px) {
     *{
         margin: 0;
