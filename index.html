@@ -5,78 +5,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/02f491cdf2.js" crossorigin="anonymous"></script>
-    <title>Juan Camilo Naranjo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>Juan Naranjo</title>
 </head>
 
 <body>
-    <!--MAIN SECTION START-->
-    <header role="banner">
-        <div class="main-section">
-            <nav class="navigation">
-                <div class="brand">
-                    <i class="fas fa-user-astronaut">&nbsp<h2>Juan C. Naranjo</h2></i>
-                </div>
-
-                <div class="main-menu">
-                    <ul>
-                        <a href="#">
-                            <li>About</li>
-                        </a>
-                        <a href="#">
-                            <li>Briefcase</li>
-                        </a>
-                        <a href="#">
-                            <li>Skills</li>
-                        </a>
-                        <a href="#">
-                            <li>Contact</li>
-                        </a>
-                    </ul>
-                </div>
-            </nav>
-
-            <div class="welcome-section">
-                <div class="welcome">
-
-                    <div class="presentation">
-                        <h1>¡Hello!<br> My name is Juan Camilo Naranjo, <br> and I'm Software Developer</h1>
-                    </div>
-                    <br>
-                    <div class="social-media">
-                        <ul>
-                            <li>
-                                <a href="#"><span class="social-btn"><i class="fab fa-facebook-f"></i></span></a>
-                            </li>
-
-                            <li>
-                                <a href="#"><span class="social-btn"><i class="fab fa-twitter"></i></span></a>
-                            </li>
-
-                            <li>
-                                <a href="#"><span class="social-btn"><i class="fab fa-instagram"></i></span></a>
-                            </li>
-
-                            <li><a href="#"><span class="social-btn"><i class="fab fa-github"></i></span></a></li>
-                        </ul>
-                    </div>
-                </div>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><i class="fas fa-code"></i>&nbsp JCNM</a>
             </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
 
+    <section class="home">
+        <div class="hello">
+            <h2>¡Hello! I'm Juan Camilo Naranjo <br> and I'm Software Developer</h2>
         </div>
 
+        <div class="social-media">
+            <table>
+                <tr>
+                    <td><a href="https://www.facebook.com/bboyjuank" target="_blank">
+                            <div class="btn"><i class="fab fa-facebook-f"></i></div>
+                        </a></td>
+                    <td><a href="https://twitter.com/JuanCam05455802" target="_blank">
+                            <div class="btn"><i class="fab fa-twitter"></i></div>
+                        </a></td>
+                    <td><a href="https://www.instagram.com/juancpoetry/" target="_blank">
+                            <div class="btn"><i class="fab fa-instagram"></i></div>
+                        </a></td>
+                    <td><a href="https://github.com/juannaranjo31" target="_blank">
+                            <div class="btn"><i class="fab fa-github"></i></div>
+                        </a></td>
+                </tr>
+            </table>
+        </div>
+    </section>
 
-
-    </header>
-    <!--MAIN SECTION END-->
-
-    <!--ABOUT ME SECTION START-->
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-me-section">
-            <div class="rgb-mark">
-                <div class="personal-photo">
-                </div>
+            <div class="photo">
+
             </div>
 
             <div class="about-text">
@@ -104,64 +89,72 @@
                 possimus placeat.
             </div>
     </section>
-    <!--ABOUT ME SECTION END-->
 
-    <!--BRIEFCASE SECTION START-->
-    <section class="briefcase">
-        <h1>Briefcase</h1><br><br>
-        <div class="briefcase-container">
-            <div class="gold">
-                <div class="project" style="background-image: url(img/pr1.jpg);">
-                    <div class="overlay"><h6>Ver más</h6></div>
-                </div>
-                
-            </div>
-
-            <div class="gold">
-                <div class="project" style="background-image: url(img/pr2.jpg);">
-                    <div class="overlay"><h6>Ver más</h6></div>
+    <section class="portfolio" id="portfolio">
+        <h1>Portfolio</h1>
+        <div class="portfolio-section">
+            <div class="project" style="background-image: url(css/img/portfolio1.jpg);">
+                <div class="overlay">
+                    <h1>Ver más</h1>
                 </div>
             </div>
 
-            <div class="gold">
-                <div class="project" style="background-image: url(img/pr3.jpg);">
-                    <div class="overlay"><h6>Ver más</h6></div>
+            <div class="project" style="background-image: url(css/img/portfolio2.jpg);">
+                <div class="overlay">
+                    <h1>Ver más</h1>
                 </div>
             </div>
 
-            <div class="gold">
-                <div class="project" style="background-image: url(img/pr4.png);">
-                    <div class="overlay"><h6>Ver más</h6></div>
+            <div class="project" style="background-image: url(css/img/portfolio3.jpg);">
+                <div class="overlay">
+                    <h1>Ver más</h1>
+                </div>
+            </div>
+
+            <div class="project" style="background-image: url(css/img/portfolio4.jpg);">
+                <div class="overlay">
+                    <h1>Ver más</h1>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--BRIEFCASE SECTION END-->
-
-    <!--SKILLS SECTION START-->
-    <section class="skills">
+    <section class="skills" id="skills">
         <h1>Skills</h1>
-        <div class="skills-container">
+        <div class="skills-section">
             <table>
                 <tr>
-                    <td><i class="fab fa-html5"></i></td>
-                    <td><i class="fab fa-css3-alt"></i></td>
-                    <td><i class="fab fa-js"></i></td>
+                    <td>
+                        <i class="fab fa-html5"></i>
+                    </td>
+
+                    <td>
+                        <i class="fab fa-css3-alt"></i>
+                    </td>
+
+                    <td>
+                        <i class="fab fa-js-square"></i>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td><i class="fab fa-java"></i></td>
-                    <td><i class="fab fa-php"></i></td>
-                    <td><i class="fab fa-python"></i></td>
+                    <td>
+                        <i class="fab fa-java"></i>
+                    </td>
+
+                    <td>
+                        <i class="fab fa-php"></i>
+                    </td>
+
+                    <td>
+                        <i class="fab fa-python"></i>
+                    </td>
                 </tr>
             </table>
         </div>
     </section>
-    <!--SKILLS SECTION END-->
 
-    <!--CONTACT AND FOOTER SECTION START-->
-    <footer>
+    <footer id="contact">
         <div class="container-footer">
             <div class="content">
                 <h2>Phone</h2>
@@ -183,6 +176,25 @@
             <h2>2021 © Juan Camilo Naranjo Mejía</h2>
         </div>
     </footer>
+
+
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/02f491cdf2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

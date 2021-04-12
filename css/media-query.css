@@ -1,0 +1,171 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .navTrigger {
+        display: block;
+    }
+    .nav div.logo {
+        margin-left: 15px;
+    }
+    .nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #111;
+        /*same background color of navbar*/
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: 100%;
+        text-align: right;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+
+    .about-me-section{
+        flex-direction: column;
+    }
+
+    .photo{
+        width: 40rem;
+        height: 40rem;
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-section{
+        flex-direction: column;
+        align-items: center;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .portfolio-section .project{
+        margin-bottom: 2.5rem;
+    }
+    
+    
+}
+
+
+/*Necesary for MOTO G4, SURFACE DUO, and GALAXY FOLD*/
+@media screen and (max-width:720px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .navTrigger {
+        display: block;
+    }
+    .nav div.logo {
+        margin-left: 15px;
+    }
+    .nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #111;
+        /*same background color of navbar*/
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: 100%;
+        text-align: right;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+
+    .about-me-section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photo{
+        width: 20rem;
+        height: 20rem;
+        margin-bottom: 3rem;
+        margin-right: 0;
+    }
+
+    .about-text h1{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .portfolio-section .project{
+        margin-bottom: 2.5rem;
+        width: 27rem;
+    }
+
+    .skills-section table tr td{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        font-size: 2em;
+    }
+
+    .container-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
